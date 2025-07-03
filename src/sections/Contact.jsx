@@ -66,7 +66,7 @@ const Contact = () => {
     }
   };
   return (
-    <section className="c-space py-0">
+    <section id="contact" className="c-space py-0">
       {showParticles && (
       <Particles
         className="absolute inset-0 -z-50"
@@ -77,7 +77,7 @@ const Contact = () => {
       />
       )}
       {showAlert && <Alert type={alertType} text={alertMessage} />}
-      <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
+      <div className="flex flex-col items-center justify-center max-w-md p-10 mx-auto border border-white/10 rounded-2xl bg-primary">
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
